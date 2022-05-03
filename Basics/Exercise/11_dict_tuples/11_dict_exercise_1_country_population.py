@@ -50,3 +50,30 @@ def main():
 
 if __name__ == '__main__':
     main()
+"""
+cout={
+    'china': '143',
+    'India' : '136',
+    'usa' : '32',
+    'pakistan': '21'
+}
+input1=input("Enter operation(print,add or Remove):")
+if input1=="print":
+  print(cout)
+elif input1 =="add":
+  input2=input()
+  if input2 in cout.keys():
+    print("country already exist")
+  elif input2 is not cout.keys():
+    input3=input()
+    cout[input2]=input3
+    print(cout)
+elif input1=="Remove":
+  input4=input()
+  if input4 in cout.keys():
+    del cout[input4]
+    print(cout)
+  else:
+    print("country does not exist")
+"""
+    
